@@ -4,7 +4,6 @@ include_once("includes/conectado.php");
 include_once("clases/ventas.php");
 include_once("clases/detalle_venta.php");
 include_once("clases/temp.php");
-include_once("header.php");
 $conexion = connect_db();
 
     if(isset($_POST['btnRegistrar'])){
